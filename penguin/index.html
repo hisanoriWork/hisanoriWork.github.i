@@ -6,6 +6,7 @@
     <title>Unity WebGL Player | ペンギン大海戦</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -22,67 +23,67 @@
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">ペンギン大海戦</div>
       </div>
-      <br />
-      <br />
-      <div>
-        <h3>****** 概要 ******</h3>
-        自分の海賊船にユニットを配置して相手の海賊船を迎え打とう！．<br>
-        自分の海賊船よりも相手の海賊船の体力を削ることで勝利することができる．<br>
-        <table>
-          <tbody>
-              <tr>
-                  <td>「オンライン」：</td>
-                  <td>最強の海賊船でネットの誰かが登録した海賊船と対戦しよう．</td>
-              </tr>
-              <tr>
-                <td>「ミッション」：</td>
-                <td>作成した海賊船でCPUに対戦しよう．ミッションに勝利すると新たなミッションが追加されます．</td>
+    </div>
+    <div class="container">
+      <div class="explanation">
+      <p class="section">****** 概要 ******</p>
+      自分の海賊船にユニットを配置して相手の海賊船を迎え打とう！<br>
+      自分の海賊船よりも相手の海賊船の体力を削ることで勝利することができる．<br>
+      <table>
+        <tbody>
+            <tr>
+                <td>「オンライン」：</td>
+                <td>最強の海賊船でネットの誰かが登録した海賊船と対戦しよう．</td>
             </tr>
             <tr>
-              <td>「エディット」：</td>
-              <td>自分の海賊船に自由にユニットを配置しよう．ユニットはドラッグ&ドロップで配置できます．</td>
+              <td>「ミッション」：</td>
+              <td>作成した海賊船でCPUに対戦しよう．ミッションに勝利すると新たなミッションが追加されます．</td>
           </tr>
-          </tbody>
-        </table>
-        <h3>****** 操作方法 ******</h3>
-        基本はマウス操作のみ
-        <table>
-          <thead>
-            <tr>
-                <th colspan="1">「ミッション」</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>対戦の始め方：</td>
-              <td>敵を選択　→　編成を選択　→　戦う！</td>
-            </tr>
-            <tr>
-              <td>早送り・停止：</td>
-              <td>戦闘時，中央上部の▷ボタンをクリック</td>
-            </tr>
-          </tbody>
-          <thead>
-            <tr>
-                <th colspan="1">「エディット」</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>エディットの始め方：</td>
-              <td>編成を選択　→　編成する</td>
-            </tr>
-            <tr>
-              <td>配置：</td>
-              <td>右側にあるユニット一覧から海賊船にドラッグ&ドロップ</td>
-            </tr>
-            <tr>
-            <td>削除：</td>
-            <td>削除したいユニットを左下の「削除」にドラッグ&ドロップ</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+          <tr>
+            <td>「エディット」：</td>
+            <td>自分の海賊船に自由にユニットを配置しよう．ユニットはドラッグ&ドロップで配置できます．</td>
+        </tr>
+        </tbody>
+      </table>
+      <p class="section">****** 操作方法 ******</p>
+      基本はマウス操作のみ
+      <table>
+        <thead>
+          <tr>
+              <th colspan="1">「ミッション」</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>対戦の始め方：</td>
+            <td>敵を選択　→　編成を選択　→　戦う！</td>
+          </tr>
+          <tr>
+            <td>早送り・停止：</td>
+            <td>戦闘時，中央上部の▷ボタンをクリック</td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+              <th colspan="1">「エディット」</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>エディットの始め方：</td>
+            <td>編成を選択　→　編成する</td>
+          </tr>
+          <tr>
+            <td>配置：</td>
+            <td>右側にあるユニット一覧から海賊船にドラッグ&ドロップ</td>
+          </tr>
+          <tr>
+          <td>削除：</td>
+          <td>削除したいユニットを左下の「削除」にドラッグ&ドロップ</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
