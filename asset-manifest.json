@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.7cb75424.css",
-    "main.js": "/static/js/main.ce1b8f34.js",
+    "main.js": "/static/js/main.c40d95d3.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/AimTarget.zip": "/static/media/AimTarget.5bfef1f998a4aa1924d4.zip",
     "static/media/ペンギン大海戦.zip": "/static/media/ペンギン大海戦.71b1819ec546ea125fad.zip",
-    "static/media/AimTarget.png": "/static/media/AimTarget.0f975bb5542b387e8668.png",
-    "static/media/Penguin.png": "/static/media/Penguin.f6759277eba0178fc96e.png",
+    "static/media/AimTarget.jpg": "/static/media/AimTarget.253ef4ad52199a897c99.jpg",
+    "static/media/逃げ旅メーカー.jpg": "/static/media/逃げ旅メーカー.f981933a55f9d9cd8117.jpg",
+    "static/media/Penguin.jpg": "/static/media/Penguin.51170679cb20e2efb251.jpg",
+    "static/media/eyeswipe.jpg": "/static/media/eyeswipe.d28e8d217fbee6616241.jpg",
     "index.html": "/index.html",
     "main.7cb75424.css.map": "/static/css/main.7cb75424.css.map",
-    "main.ce1b8f34.js.map": "/static/js/main.ce1b8f34.js.map",
+    "main.c40d95d3.js.map": "/static/js/main.c40d95d3.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cb75424.css",
-    "static/js/main.ce1b8f34.js"
+    "static/js/main.c40d95d3.js"
   ]
 }
